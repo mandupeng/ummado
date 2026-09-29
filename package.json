@@ -1,0 +1,42 @@
+{
+  "name": "ummado",
+  "version": "1.0.0",
+  "private": true,
+  "description": "4개 AI 모델의 해석과 근거를 비교하는 미믹 프롬프트 쇼케이스 (광고 수익 모델)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "fetch:models": "tsx scripts/fetch-model-responses.ts"
+  },
+  "dependencies": {
+    "@pmd/core": "github:mandupeng/pmd-core",
+    "@pmd/ui": "github:mandupeng/pmd-ui",
+    "next": "^16.3.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@google/generative-ai": "^0.14.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.6",
+    "jsdom": "^30.1.1",
+    "openai": "^4.81.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.19.1",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.2"
+  }
+}

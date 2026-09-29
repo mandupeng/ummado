@@ -1,0 +1,6 @@
+{
+  "monetization": "ads",
+  "adsense": {
+    "slots": ["grid", "footer"]
+  }
+}

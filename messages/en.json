@@ -1,0 +1,10 @@
+{
+  "title": "ummado — AI Model Comparison",
+  "description": "See how different AI models interpret the same viral Korean meme prompt.",
+  "interpretation": "Interpretation",
+  "reasoning": "Reasoning",
+  "promptLocked": "Prompt not yet revealed",
+  "promptRevealed": "Prompt",
+  "noDataYet": "No data yet",
+  "loading": "Loading..."
+}
